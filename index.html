@@ -1,0 +1,42 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP3 player</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="asset/Icon/fontawesome-free-6.0.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./asset/mp3.css">
+</head>
+
+<body>
+    <div class="music">
+        <div class="music-thumb">
+            <img src="https://source.unsplash.com/random" alt="">
+        </div>
+        <div class="music-name">Chi Heo</div>
+        <input type="range" name="range" id="range" class="range">
+        <audio src="./asset/Music/Chay-Ve-Khoc-Voi-Anh-ERIK.mp3" id="song"></audio>
+        <div class="timer">
+            <div class="duration">2:10</div>
+            <div class="remaining">-3:10</div>
+        </div>
+        <div class="controls">
+            <i class="fa-solid fa-infinity infinity"></i>
+            <i class="fa-solid fa-backward backward"></i>
+            <div class="play">
+                <div class="play-inner">
+                    <i class="fa-solid fa-play play-icon"></i>
+                </div>
+            </div>
+            <i class="fa-solid fa-forward forward"></i>
+            <i class="fa-solid fa-repeat repeat"></i>
+        </div>
+    </div>
+    <script src="./asset/mp3.js"></script>
+</body>
+
+</html>
